@@ -49,7 +49,7 @@ def sum_of_values(values, keys):
         sum += values[i]*keys[i]
     return sum
 
-def knapsack_problem_optimal0(profits, weights, capacity, goal):
+def knapsack_problem(profits, weights, capacity, goal):
     #Solucion por fuerza bruta para knapsack problem
     if len(weights) != len(profits):
         return False
